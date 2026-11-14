@@ -1,0 +1,12 @@
+{
+  "siteName": "סטנדרט 14",
+  "unitName": "בה״ד 1",
+  "globalLabel": "כללי",
+  "defaultTeam": "team-14",
+  "teams": [
+    {
+      "id": "team-14",
+      "name": "צוות 14"
+    }
+  ]
+}
