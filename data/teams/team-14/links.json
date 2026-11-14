@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "title": "שימושי",
+      "links": [
+        { "title": "דוגמה: קבוצת הוואטסאפ של הצוות", "url": "https://chat.whatsapp.com/", "icon": "💬", "description": "להחליף בקישור ההזמנה האמיתי" },
+        { "title": "דוגמה: תיקיית חומרים ב-Drive", "url": "https://drive.google.com", "icon": "📁" }
+      ]
+    }
+  ]
+}
