@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#2f3d2a">
+  <title>ניהול · סטנדרט 14</title>
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body class="admin">
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/img/icon.svg" alt="" class="brand-icon">
+      <div>
+        <h1>ניהול</h1>
+        <p class="subtitle" id="who">סטנדרט 14</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <select id="team-select" class="team-select" aria-label="בחירת צוות" hidden></select>
+      <a class="top-link" href="./" target="_blank" rel="noopener">לאתר ↗</a>
+    </div>
+  </header>
+
+  <nav id="admin-nav" class="admin-nav" hidden aria-label="אזורי ניהול">
+    <button type="button" data-sec="announcements">📣 הודעות</button>
+    <button type="button" data-sec="tasks">✅ מטלות</button>
+    <button type="button" data-sec="schedule">📅 לו״ז</button>
+    <button type="button" data-sec="members">👥 צוות</button>
+    <button type="button" data-sec="links">🔗 קישורים</button>
+    <button type="button" data-sec="settings">⚙️ הגדרות</button>
+  </nav>
+
+  <main id="view" class="view">
+    <p class="loading">טוען…</p>
+  </main>
+
+  <dialog id="sheet" class="sheet"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
